@@ -60,6 +60,23 @@
       <version>1.15.0</version>
       <type>pom</type>
     </dependency>
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt-jackson</artifactId>
+      <version>0.11.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt-impl</artifactId>
+      <version>0.11.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt-api</artifactId>
+      <version>0.11.2</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
@@ -69,8 +86,7 @@
         <artifactId>go-offline-maven-plugin</artifactId>
         <version>1.2.5</version>
         <configuration>
-          <dynamicDependencies>
-        </dynamicDependencies>
+          <dynamicDependencies/>
         </configuration>
       </plugin>
       <!-- Project plugins -->
