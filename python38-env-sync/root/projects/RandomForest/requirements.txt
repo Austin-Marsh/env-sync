@@ -11,9 +11,11 @@ fiona
 #gdal
 geopandas
 geopy
+grpcio
 matplotlib
 numpy
 pandas
+protobuf
 psycopg2-binary
 pyproj
 #rtree
