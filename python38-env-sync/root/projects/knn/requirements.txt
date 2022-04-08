@@ -5,4 +5,4 @@ setuptools
 wheel
 
 # project specific
-pyinstaller
+pyinstaller==4.8
