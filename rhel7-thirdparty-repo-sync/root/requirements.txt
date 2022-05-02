@@ -7,6 +7,5 @@ mongodb-enterprise-4.0
 mongodb-enterprise-4.1
 mongodb-enterprise-4.2
 mongodb-enterprise-4.3
-#mongodb-enterprise-4.4
-docker-ee-stable
+mongodb-enterprise-4.4
 docker-ce-stable
