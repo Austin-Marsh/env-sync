@@ -1,0 +1,12 @@
+# common
+pip
+pyinstaller
+setuptools
+wheel
+
+# project specific
+beautifulsoup4
+keras
+statsmodels
+tensorflow
+torch
