@@ -1,5 +1,5 @@
-docker.io/apache/nifi:latest
 docker.io/apache/nifi:1.8.0
+docker.io/apache/nifi:1.15.3
 docker.io/httpd:latest
 docker.io/jboss/wildfly:latest
 docker.io/mongo:latest
