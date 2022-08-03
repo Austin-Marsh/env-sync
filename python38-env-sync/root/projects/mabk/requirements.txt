@@ -10,3 +10,13 @@ keras
 statsmodels
 tensorflow
 torch
+theano
+scipy
+seaborn
+fuzzylab
+scikit-fuzzy
+pytest
+robot
+scikit-image
+selenium
+scrapy
