@@ -14,11 +14,13 @@
       <artifactId>commons-dbutils</artifactId>
       <version>1.6</version>
     </dependency>
+    <!--
     <dependency>
       <groupId>commons-dbcp</groupId>
       <artifactId>commons-dbcp</artifactId>
       <version>1.2.2</version>
     </dependency>
+    -->
     <dependency>
       <groupId>commons-dbcp</groupId>
       <artifactId>commons-dbcp</artifactId>
@@ -75,11 +77,6 @@
       <version>1.0</version>
     </dependency>
     <dependency>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-javadoc-plugin</artifactId>
-      <version>3.2.0</version>
-    </dependency>
-    <dependency>
       <groupId>com.oracle.database.jdbc</groupId>
       <artifactId>ojdbc8</artifactId>
       <version>19.3.0.0</version>
@@ -106,7 +103,7 @@
       <plugin>
         <groupId>de.qaware.maven</groupId>
         <artifactId>go-offline-maven-plugin</artifactId>
-        <version>1.2.5</version>
+        <version>1.2.8</version>
         <configuration>
           <dynamicDependencies>
             <DynamicDependency>
