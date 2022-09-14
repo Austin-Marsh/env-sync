@@ -19,5 +19,6 @@ podman run \
 --volume /export/docker:/export \
 --volume ./root/projects:/projects \
 --volume ./root/.config/containers/registries.conf:/root/.config/containers/registries.conf \
+--volume ./root/etc/containers/policy.json:/etc/containers/policy.json \
 --rm \
 localhost/docker-env-sync

@@ -1,0 +1,17 @@
+# common
+pip
+pyinstaller
+setuptools
+wheel
+
+# project specific
+altgraph
+networkx
+numpy
+ply
+psycopg2-binary
+pyinstaller; sys_platform == "win32"
+pyinstaller-hooks-contrib; sys_platform == "win32"
+pyinstaller-hooks-contrib
+PyXb
+scipy
