@@ -183,6 +183,11 @@
       <artifactId>blaze-persistence-jpa-criteria-jpa-2-compatibility</artifactId>
       <version>1.6.7</version>
     </dependency>
+    <dependency>
+      <groupId>com.zaxxer</groupId>
+      <artifactId>HikariCP</artifactId>
+      <version>5.0.1</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
