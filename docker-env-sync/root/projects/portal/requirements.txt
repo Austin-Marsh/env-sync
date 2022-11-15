@@ -1,0 +1,2 @@
+registry1.dso.mil/ironbank/opensource/redis/redis6:latest
+registry1.dso.mil/ironbank/opensource/nodejs/nodejs14:latest
