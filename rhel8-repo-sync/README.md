@@ -1,6 +1,9 @@
 # build
 podman build -t rhel8-repo-sync .
 
+# shell
+podman run --rm -it rhel8-repo-sync /bin/bash
+
 # run
 podman run \
 --name rhel8-repo-sync \
