@@ -6,7 +6,7 @@ podman run --rm -it rhel8-eus-repo-sync /bin/bash
 
 # run
 podman run \
---name rhel8-repo-sync \
+--name rhel8-eus-repo-sync \
 --volume /export/rhel/rhel8:/export \
 --volume ./root/etc/yum/vars/releasever:/etc/yum/vars/releasever \
 --volume ./root/requirements.txt:/requirements.txt \
