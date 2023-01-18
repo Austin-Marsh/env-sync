@@ -13,4 +13,4 @@ COPY root/usr/local/bin/* /usr/local/bin/
 
 RUN chmod +x /usr/local/bin/*
 
-CMD ["rhel8-thirdparty-repo-sync.bash"]
+CMD ["rhel8-repo-sync.bash"]
