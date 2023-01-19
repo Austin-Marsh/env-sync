@@ -1,0 +1,3 @@
+ubi-8-appstream
+ubi-8-baseos
+ubi-8-codeready-builder
