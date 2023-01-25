@@ -16,7 +16,7 @@ do
 	do
 		echo [${REPO}] && \
 		echo -e && \
-		reposync -p "${EXPORT_DIR}/${RELEASE}" --download-metadata --newest-only --delete --repoid="${REPO}" && \
+		reposync -p "${EXPORT_DIR}/${RELEASE}" --download-metadata --delete --repoid="${REPO}" && \
 		echo -e
 	done
 done

@@ -1,14 +1,14 @@
 # build
-podman build -t rhel8-eus-repo-sync .
+podman build -t rhel86-repo-sync .
 
 # shell
-podman run --rm -it rhel8-eus-repo-sync /bin/bash
+podman run --rm -it rhel86-repo-sync /bin/bash
 
 # run
 podman run \
---name rhel8-eus-repo-sync \
+--name rhel86-repo-sync \
 --volume /export/rhel:/export \
 --volume ./root/releases.txt:/releases.txt \
 --volume ./root/requirements.txt:/requirements.txt \
 --rm \
-localhost/rhel8-eus-repo-sync
+localhost/rhel86-repo-sync
