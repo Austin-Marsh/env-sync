@@ -39,7 +39,7 @@ scipy
 setuptools
 shapely
 six
-sklearn
+#sklearn <- deprecated by scikit-learn
 #sys
 threadpoolctl
 #time

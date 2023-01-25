@@ -29,5 +29,5 @@ pyproj
 scikit-learn
 scipy
 shapely
-sklearn
+#sklearn <- deprecated by scikit-learn
 tkcalendar
