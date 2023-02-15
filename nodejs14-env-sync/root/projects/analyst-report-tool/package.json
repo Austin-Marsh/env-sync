@@ -1,18 +1,19 @@
 {
-  "name": "rule-service-demo",
+  "name": "AARG",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-    "@fontsource/roboto": "*",
-    "@mui/icons_material": "*",
     "@mui/material": "^5.11.5",
     "@mui/x-data-grid": "^5.17.19",
+    "axios": "^0.19.2",
+    "docx": "^7.8.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.2",
-    "react-scripts": "5.0.1"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
