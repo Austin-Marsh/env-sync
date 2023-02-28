@@ -1,0 +1,6 @@
+---
+collections:
+# firewalld, mount
+- ansible.posix
+# cronvar, timezone
+- community.general
