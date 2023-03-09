@@ -1,0 +1,9 @@
+# common
+pip
+pyinstaller
+setuptools
+wheel
+
+# project specific
+dnspython
+ipalib
