@@ -6,4 +6,3 @@ wheel
 
 # project specific
 dnspython
-ipalib
