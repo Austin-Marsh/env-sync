@@ -7,4 +7,3 @@ wheel
 # project specific
 ansible-lint
 dnspython
-ipalib

@@ -1,9 +1,6 @@
 # build
 podman build -t python38-env-sync .
 
-# shell
-podman run --rm -it python38-env-sync /bin/bash
-
 # run
 podman run \
 --name python38-env-sync \

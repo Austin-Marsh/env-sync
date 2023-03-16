@@ -5,7 +5,7 @@ RUN dnf module install \
 --disablerepo=* \
 --enablerepo=rhel-8-for-x86_64-baseos-rpms \
 --enablerepo=rhel-8-for-x86_64-appstream-rpms \
-python38
+python39
 
 RUN dnf install \
 --assumeyes \
@@ -15,4 +15,4 @@ COPY root/usr/local/bin/* /usr/local/bin/
 
 RUN chmod +x /usr/local/bin/*
 
-CMD ["python38-env-sync.bash"]
+CMD ["python39-env-sync.bash"]

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source /opt/rh/rh-python38/enable
+
 PROJECT_DIR="/projects"
 EXPORT_DIR="/export"
 
@@ -15,10 +17,10 @@ do
         echo -e && \
 	mkdir -p ${EXPORT_DIR}/${PROJECT} && \
 	cd ${EXPORT_DIR}/${PROJECT} && \
-	python3.8 -m venv venv && \
+	python -m venv venv && \
 	source venv/bin/activate && \
-	pip3.8 --no-cache-dir install --upgrade pip && \
-	pip3.8 --no-cache-dir download --requirement ${PROJECT_DIR}/${PROJECT}/requirements.txt --dest packages && \
+	pip --no-cache-dir install --upgrade pip && \
+	pip --no-cache-dir download --requirement ${PROJECT_DIR}/${PROJECT}/requirements.txt --dest packages && \
 	deactivate && \
 	echo -e
 done
