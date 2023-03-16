@@ -1,0 +1,45 @@
+# common
+pip
+pyinstaller
+setuptools
+wheel
+
+# project specific
+attrs
+certifi
+classes
+click
+click-plugins
+cligj
+configparser
+cycler
+Fiona
+geopandas
+grpcio
+grpcio-tools
+#javapackages
+joblib
+kiwisolver
+matplotlib
+munch
+numpy
+pandas
+#pickle
+pillow
+pip
+protobuf
+psycopg2-binary
+pyparsing
+pyproj
+python-dateutil
+pytz
+PyXB
+scikit-learn
+scipy
+setuptools
+shapely
+six
+#sklearn <- deprecated by scikit-learn
+#sys
+threadpoolctl
+#time

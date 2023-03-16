@@ -5,5 +5,4 @@ setuptools
 wheel
 
 # project specific
-ansible-lint
-dnspython
+pyinstaller==4.8

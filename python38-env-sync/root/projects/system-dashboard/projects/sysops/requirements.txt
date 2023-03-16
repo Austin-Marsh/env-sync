@@ -1,0 +1,10 @@
+# common
+pip
+pyinstaller
+setuptools
+wheel
+
+# project specific
+ansible-lint
+dnspython
+ipalib

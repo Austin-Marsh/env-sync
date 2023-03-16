@@ -1,0 +1,8 @@
+# common
+pip
+pyinstaller
+setuptools
+wheel
+
+# project specific
+smop

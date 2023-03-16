@@ -1,0 +1,17 @@
+# common
+pip
+pyinstaller
+setuptools
+wheel
+
+# project specific
+altgraph
+json5
+networkx
+numpy
+ply
+psycopg2-binary
+pyinstaller-hooks-contrib
+PyXb
+scipy
+tk
