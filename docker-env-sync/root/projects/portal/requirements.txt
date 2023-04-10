@@ -1,3 +1,4 @@
 registry1.dso.mil/ironbank/opensource/redis/redis6:latest
 registry1.dso.mil/ironbank/opensource/nodejs/nodejs14:latest
 registry1.dso.mil/ironbank/opensource/nodejs/nodejs18:18.14.1
+registry1.dso.mil/ironbank/opensource/nodejs/nodejs18:18.15.0
