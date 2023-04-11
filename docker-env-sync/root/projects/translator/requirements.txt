@@ -1,2 +1,2 @@
-registry1.dso.mil/ironbank/opensource/apache/nifi:latest
-registry1.dso.mil/ironbank/opensource/nodejs/nodejs14:latest
+#registry1.dso.mil/ironbank/opensource/apache/nifi:latest
+#registry1.dso.mil/ironbank/opensource/nodejs/nodejs14:latest
