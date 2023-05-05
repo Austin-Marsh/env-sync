@@ -172,6 +172,21 @@
       <artifactId>postgresql</artifactId>
       <version>42.6.0</version>
     </dependency>
+    <dependency>
+      <groupId>org.flywaydb</groupId>
+      <artifactId>flyway-maven-plugin</artifactId>
+      <version>9.17.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.ulisesbocchio</groupId>
+      <artifactId>jasypt-spring-boot-starter</artifactId>
+      <version>3.0.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.ulisesbocchio</groupId>
+      <artifactId>jasypt-spring-boot</artifactId>
+      <version>3.0.5</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
@@ -214,6 +229,11 @@
         <groupId>org.openjfx</groupId>
         <artifactId>javafx-maven-plugin</artifactId>
         <version>0.0.8</version>
+      </plugin>
+      <plugin>
+        <groupId>com.github.ulisesbocchio</groupId>
+        <artifactId>jasypt-maven-plugin</artifactId>
+        <version>3.0.5</version>
       </plugin>
     </plugins>
   </build>
