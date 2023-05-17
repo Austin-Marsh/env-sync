@@ -1,0 +1,3 @@
+https://github.com/dalealleshouse/dotfiles.git
+https://github.com/kaitai-io/ide-kaitai-io.github.io.git
+https://github.com/ohmyzsh/ohmyzsh.git

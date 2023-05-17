@@ -9,6 +9,5 @@ podman run \
 --name git-repo-sync \
 --volume /export/git:/export \
 --volume ./root/projects:/projects \
---volume ./root/root:/root \
 --rm \
 localhost/git-repo-sync
