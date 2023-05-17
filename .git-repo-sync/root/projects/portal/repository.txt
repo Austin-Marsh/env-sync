@@ -1,2 +1,0 @@
-BRANCH_URL=https://192.168.0.11/artifactory/api/vcs/downloadBranch
-TAG_URL=https://192.168.0.11/artifactory/api/vcs/downloadTag
