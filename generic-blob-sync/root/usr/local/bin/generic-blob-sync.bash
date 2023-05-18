@@ -19,7 +19,8 @@ do
 	for BLOB_URL in $(grep -v "#" ${REQUIREMENTS_FILE})
 	do
 		echo ${BLOB_URL} && \
-		curl -k -L -XGET ${BLOB_URL} -J -O && \
+		sleep 1 && \
+		curl -Ss -k -L -J -O --fail -XGET ${BLOB_URL} && \
 		echo -e ||
 		echo -e
 	done

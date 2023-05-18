@@ -5,8 +5,7 @@ RUN yum install \
 --disablerepo=* \
 --enablerepo=rhel-8-for-x86_64-baseos-rpms \
 --enablerepo=rhel-8-for-x86_64-appstream-rpms \
-curl \
-wget
+curl
 
 COPY root/usr/local/bin/* /usr/local/bin/
 
