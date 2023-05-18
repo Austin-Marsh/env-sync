@@ -19,8 +19,7 @@ do
 	for BLOB_URL in $(grep -v "#" ${REQUIREMENTS_FILE})
 	do
 		echo ${BLOB_URL} && \
-		#curl -sS -k -L -XGET ${BLOB_URL} -O && \
-		wget --wait 10 --random-wait ${BLOB_URL} -O $(basename ${BLOB_URL}) && \
+		curl -k -L -XGET ${BLOB_URL} -J -O && \
 		echo -e ||
 		echo -e
 	done

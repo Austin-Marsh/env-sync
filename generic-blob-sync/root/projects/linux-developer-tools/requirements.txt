@@ -2,3 +2,5 @@ https://github.com/kaitai-io/kaitai_struct_compiler/releases/download/0.10/kaita
 https://github.com/koalaman/shellcheck/releases/download/v0.9.0/shellcheck-v0.9.0.linux.x86_64.tar.xz
 https://marketplace.visualstudio.com/_apis/public/gallery/publishers/SonarSource/vsextensions/sonarlint-vscode/3.17.0/vspackage
 https://www.jslint.com/jslint.mjs
+https://update.code.visualstudio.com/1.78.2/linux-rpm-x64/stable
+https://update.code.visualstudio.com/1.78.2/win32-x64-user/stable
