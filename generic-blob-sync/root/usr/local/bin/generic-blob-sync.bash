@@ -16,16 +16,11 @@ do
 	mkdir -p ${EXPORT_DIR}/${PROJECT} && \
 	cd ${EXPORT_DIR}/${PROJECT} && \
 
-	for REPOSITORY in $(grep -v "#" ${REQUIREMENTS_FILE})
+	for BLOB_URL in $(grep -v "#" ${REQUIREMENTS_FILE})
 	do
-		REPOSITORY_DIR=$(basename ${REPOSITORY} | awk -F '.git$' '{print $1}')
-
-		echo ${REPOSITORY} && \
-		git clone --progress ${REPOSITORY} ${REPOSITORY_DIR} && \
-		cd ${REPOSITORY_DIR} && \
-		git bundle create --progress ../${REPOSITORY_DIR}.bundle --all && \
-		cd ../ && \
-		rm -rf ${REPOSITORY_DIR} && \
+		echo ${BLOB_URL} && \
+		sleep 1 && \
+		curl -Ss -k -L -J -O --fail -XGET ${BLOB_URL} && \
 		echo -e ||
 		echo -e
 	done
